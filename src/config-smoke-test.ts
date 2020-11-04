@@ -14,11 +14,13 @@ export default [
     params: '',
     it: 'runs onboarding -u admin@integrationtesthubna40.org', // Like description
     expects: 'Retrieved metadatapackage from api',
+    // Currently we are only using this testpath, do we want to use the parameters, and mock everything as in the tests?
     testPath: 'test/commands',
   },
   {
     command: 'hello:org',
     expects: 'Hello world',
+    // Currently we are only using this testpath
     testPath: 'test/commands/hello',
   },
 ];
