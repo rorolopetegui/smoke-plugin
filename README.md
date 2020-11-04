@@ -1,8 +1,4 @@
-# plugin-&lt;REPLACE ME&gt;
-
-Change above to <REPLACE_ME> before finalizing
-
-&lt;REPLACE ME DESCRIPTION START&gt;
+# plugin-hello;
 
 This repository provides a template for creating a plugin for the Salesforce CLI. To convert this template to a working plugin:
 
